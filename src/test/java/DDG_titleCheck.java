@@ -30,7 +30,7 @@ public class DDG_titleCheck {
         String actualTitle = driver.getTitle();
         String expectedTitle = "Google";
 
-        Assert.assertNotEquals(actualTitle, expectedTitle);
+        Assert.assertEquals(actualTitle, expectedTitle);
 
         System.out.println("There is a bug as the actual is (" + actualTitle + ") and the expected is " + expectedTitle);
 
