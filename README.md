@@ -1,41 +1,68 @@
-# Projects
-Practising automation testing
+## 🚀 Automation Testing Projects
 
+A collection of hands-on projects to practice and demonstrate automation testing skills using real-world scenarios and websites.
 
-- Project 1:
-- (Swag Labs)
+---
 
-Use https://www.saucedemo.com/
-To write automation script that loops on every username & every password, passing them into username-input field& password-input field using locators .
-Push on project repo
+### 🔹 Project 1: Swag Labs Login Automation
 
+**URL:** [https://www.saucedemo.com/](https://www.saucedemo.com/)
 
-- Project 2:
-- (DuckDuckGo Webdsite)
+**Goal:**
+Automate login attempts using all available username and password combinations on the Swag Labs login page.
 
-● Open Google Chrome
-● Navigate to [https://duckduckgo.com/]
-● Assert that the page title is [Google]
-● Close Google Chrome
-Push on project repo
+**Key Features:**
 
+* Use of locators to interact with the login fields.
+* Loop through multiple credentials for testing.
+* Organized and reusable test script.
 
-- Project 3:
-- (DuckDuckGo Webdsite)
+📂 *\[View Code on Repository]*
 
-Open Google Chrome
-● Navigate to [https://duckduckgo.com/]
-● Assert that the DuckDuckGo logo is displayed
-● Close Google Chrome
-Push on project repo
+---
 
+### 🔹 Project 2: DuckDuckGo - Title Assertion
 
-- Project 4:
-- (DuckDuckGo Webdsite)
+**URL:** [https://duckduckgo.com/](https://duckduckgo.com/)
 
-● Open Google Chrome
-● Navigate to [https://duckduckgo.com/]
-● Search for [Selenium WebDriver]
-● Assert that the link of the first result is [https://www.selenium.dev/documentation/webdriver/]
-● Close Google Chrome
-Push on project repo
+**Scenario:**
+
+* Open Google Chrome browser.
+* Navigate to the DuckDuckGo homepage.
+* ❌ **(Intentionally Failing Test)**: Assert that the page title is **"Google"**.
+* Close the browser.
+
+📂 *\[View Code on Repository]*
+
+---
+
+### 🔹 Project 3: DuckDuckGo - Logo Visibility Test
+
+**URL:** [https://duckduckgo.com/](https://duckduckgo.com/)
+
+**Scenario:**
+
+* Open Google Chrome browser.
+* Navigate to DuckDuckGo homepage.
+* ✅ Assert that the DuckDuckGo logo is visible on the page.
+* Close the browser.
+
+📂 *\[View Code on Repository]*
+
+---
+
+### 🔹 Project 4: DuckDuckGo - Selenium Search Test
+
+**URL:** [https://duckduckgo.com/](https://duckduckgo.com/)
+
+**Scenario:**
+
+* Open Google Chrome browser.
+* Search for **"Selenium WebDriver"**.
+* ✅ Assert that the first result's link is:
+  [https://www.selenium.dev/documentation/webdriver/](https://www.selenium.dev/documentation/webdriver/)
+* Close the browser.
+
+📂 *\[View Code on Repository]*
+
+---
