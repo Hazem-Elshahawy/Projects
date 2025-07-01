@@ -12,7 +12,7 @@ public class swagLabs {
     WebDriver driver;
 
     @BeforeClass
-    public void setup() throws InterruptedException {
+    public void setup() {
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("user-data-dir=C:/Users/Hazem/AppData/Local/Google/Chrome/User Data");
