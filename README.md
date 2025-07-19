@@ -1,68 +1,82 @@
-## 🚀 Automation Testing Projects
+# 🧪 Swag Labs E2E Automation Project
 
-A collection of hands-on projects to practice and demonstrate automation testing skills using real-world scenarios and websites.
-
----
-
-### 🔹 Project 1: Swag Labs Login Automation
-
-**URL:** [https://www.saucedemo.com/](https://www.saucedemo.com/)
-
-**Goal:**
-Automate login attempts using all available username and password combinations on the Swag Labs login page.
-
-**Key Features:**
-
-* Use of locators to interact with the login fields.
-* Loop through multiple credentials for testing.
-* Organized and reusable test script.
-
-📂 *\[View Code on Repository]*
+Automation testing project for [www.saucedemo.com](https://www.saucedemo.com)  
+Tech stack includes Selenium, Java, TestNG, and Allure.
 
 ---
 
-### 🔹 Project 2: DuckDuckGo - Title Assertion
+## 📁 Project Structure
 
-**URL:** [https://duckduckgo.com/](https://duckduckgo.com/)
+```
 
-**Scenario:**
+src
+├── main
+│   └── java
+├── test
+│   └── java
+│       ├── base       # BaseTest setup
+│       ├── page       # All Page Object Classes
+│       └── tests      # TestNG Test Classes
 
-* Open Google Chrome browser.
-* Navigate to the DuckDuckGo homepage.
-* ❌ **(Intentionally Failing Test)**: Assert that the page title is **"Google"**.
-* Close the browser.
-
-📂 *\[View Code on Repository]*
-
----
-
-### 🔹 Project 3: DuckDuckGo - Logo Visibility Test
-
-**URL:** [https://duckduckgo.com/](https://duckduckgo.com/)
-
-**Scenario:**
-
-* Open Google Chrome browser.
-* Navigate to DuckDuckGo homepage.
-* ✅ Assert that the DuckDuckGo logo is visible on the page.
-* Close the browser.
-
-📂 *\[View Code on Repository]*
+````
 
 ---
 
-### 🔹 Project 4: DuckDuckGo - Selenium Search Test
+## 🧰 Tech Stack
 
-**URL:** [https://duckduckgo.com/](https://duckduckgo.com/)
-
-**Scenario:**
-
-* Open Google Chrome browser.
-* Search for **"Selenium WebDriver"**.
-* ✅ Assert that the first result's link is:
-  [https://www.selenium.dev/documentation/webdriver/](https://www.selenium.dev/documentation/webdriver/)
-* Close the browser.
-
-📂 *\[View Code on Repository]*
+| Tool        | Description             |
+|-------------|--------------------------|
+| Selenium 4  | Browser automation       |
+| Java        | Programming language     |
+| TestNG      | Test execution           |
+| Allure      | Test reporting           |
 
 ---
+
+## ▶️ How to Run the Tests
+
+```bash
+allure generate allure-results --clean -o allure-report
+allure open allure-report
+````
+
+---
+
+## ✅ Test Scenarios
+
+* User can log in
+* Add product to cart
+* Proceed to checkout
+* Complete the order
+
+---
+
+## 🏷️ Allure Annotations Used
+
+* `@Epic`
+* `@Feature`
+* `@Story`
+* `@Severity`
+* `@Test`
+* `@Description`
+
+---
+
+## 🔐 Test Credentials
+
+```
+username: standard_user
+password: secret_sauce
+```
+
+---
+
+## 🚧 Improvement Ideas
+
+* // TODO: Testing all username credentials functionality
+
+---
+
+## 💬 Inquiries?
+
+If you have any inquiries, feel free to keep in touch.
